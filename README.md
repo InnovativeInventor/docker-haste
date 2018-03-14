@@ -13,7 +13,7 @@ docker build -t haste-server .
 docker run haste-server
 ```
 
-## Credits & Contri
+## Credits & Contributions
 [seejohnrun/haste-server](https://github.com/seejohnrun/haste-server)
 
 Contributions are always welcome – and appreciated! Just submit a pull request, and I'll review it.
