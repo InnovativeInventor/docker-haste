@@ -13,6 +13,13 @@ docker build -t haste-server .
 docker run haste-server
 ```
 
+or, you can use the prebuilt images on Docker Hub:
+
+```
+docker pull innovativeinventor/docker-haste
+docker run innovativeinventor/docker-haste
+```
+
 ## Extra notes
 To completely rebuild via compose right before deployment, type in:
 `docker-compose build --no-cache && docker-compose up -d`
