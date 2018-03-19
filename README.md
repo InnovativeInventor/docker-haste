@@ -21,8 +21,13 @@ docker run innovativeinventor/docker-haste
 ```
 
 ## Extra notes
+The images on Docker Hub are only built when I push to this repo, so if you want the latest version of docker-haste, either build it yourself or tell me to trigger a build on Docker Hub(make an issue).
+
 To completely rebuild via compose right before deployment, type in:
 `docker-compose build --no-cache && docker-compose up -d`
+
+To explore the files in your docker container, type in:
+`sudo docker exec -it dockerhaste_hastebin_1 sh`
 
 ## Credits & Contributions
 [seejohnrun/haste-server](https://github.com/seejohnrun/haste-server)
